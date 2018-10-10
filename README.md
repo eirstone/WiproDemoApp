@@ -1,5 +1,6 @@
 
-A **Swift** based implementation For Wipro demo test.
+A **Swift** based implementation For Wipro demo test, please run 'pod install' to download the dependent frameworks.
+
 
 ## Pro
 
@@ -15,7 +16,8 @@ A **Swift** based implementation For Wipro demo test.
 
 
 ## Con
-1. No testcases added since there is no enough time
+1. No testcases included
+2. Parsing json to model class is not generic type
 
 
 
