@@ -1,0 +1,6 @@
+framework module Pods_WiproDemoAppUITests {
+  umbrella header "Pods-WiproDemoAppUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
