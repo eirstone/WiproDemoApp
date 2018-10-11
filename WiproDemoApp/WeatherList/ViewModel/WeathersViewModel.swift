@@ -17,7 +17,9 @@ class WeathersViewModel{
     var weathers : Observable<[WeatherCellViewModel]>{
         return _weathers.asObservable()
     }
-    
+
+    var errorGetDataFromServer: NSError?
+
     init(apiService: APIServiceProtocol = WeatherDataApiService(cityName: city)){
         self.apiService = apiService
         
@@ -52,6 +54,7 @@ class WeathersViewModel{
             }
             
         }) { (error) in
+            self.errorGetDataFromServer = error
             print("\(error)")
         }
     }

@@ -13,8 +13,6 @@ class WeatherCellViewModel {
 
     let weather : Weather!
     
-    var driver: Driver<UIImage>!
-
     init(weatherData: Weather) {
         self.weather = weatherData
     }

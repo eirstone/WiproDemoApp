@@ -14,24 +14,26 @@
 		1382A616216E03F200F35244 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1382A614216E03F200F35244 /* LaunchScreen.storyboard */; };
 		1382A621216E03F300F35244 /* WiproDemoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1382A620216E03F300F35244 /* WiproDemoAppTests.swift */; };
 		1382A62C216E03F300F35244 /* WiproDemoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1382A62B216E03F300F35244 /* WiproDemoAppUITests.swift */; };
-		1382A63D216E282700F35244 /* WeathersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1382A63C216E282700F35244 /* WeathersViewModel.swift */; };
-		1382A641216E285F00F35244 /* Weathers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1382A640216E285F00F35244 /* Weathers.swift */; };
-		1382A644216E296200F35244 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1382A643216E296200F35244 /* Weather.swift */; };
-		1382A646216E29C700F35244 /* Wind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1382A645216E29C700F35244 /* Wind.swift */; };
-		1382A648216E29F100F35244 /* Clouds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1382A647216E29F100F35244 /* Clouds.swift */; };
-		1382A64A216E2A0900F35244 /* Sys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1382A649216E2A0900F35244 /* Sys.swift */; };
-		1382A64C216E2ADC00F35244 /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1382A64B216E2ADC00F35244 /* WeatherData.swift */; };
-		1382A64E216E2AF600F35244 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1382A64D216E2AF600F35244 /* Main.swift */; };
-		1382A650216E2D5200F35244 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1382A64F216E2D5200F35244 /* City.swift */; };
-		1382A652216E2D8100F35244 /* Coord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1382A651216E2D8100F35244 /* Coord.swift */; };
-		1382A65B216E3A1900F35244 /* WeatherDataApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1382A65A216E3A1900F35244 /* WeatherDataApiService.swift */; };
-		1382A65D216E3E6E00F35244 /* APIServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1382A65C216E3E6E00F35244 /* APIServiceProtocol.swift */; };
-		1382A65F216E424A00F35244 /* WeatherCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1382A65E216E424A00F35244 /* WeatherCellViewModel.swift */; };
 		1382A661216E45BC00F35244 /* WeatherTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1382A660216E45BC00F35244 /* WeatherTableViewCell.swift */; };
 		1382A664216E522400F35244 /* String+humanReadableDateString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1382A663216E522400F35244 /* String+humanReadableDateString.swift */; };
+		13E8B096216F680300A1E17C /* Weathers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1382A640216E285F00F35244 /* Weathers.swift */; };
+		13E8B097216F680500A1E17C /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1382A643216E296200F35244 /* Weather.swift */; };
+		13E8B098216F680700A1E17C /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1382A64B216E2ADC00F35244 /* WeatherData.swift */; };
+		13E8B099216F680900A1E17C /* Wind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1382A645216E29C700F35244 /* Wind.swift */; };
+		13E8B09A216F680A00A1E17C /* Clouds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1382A647216E29F100F35244 /* Clouds.swift */; };
+		13E8B09B216F680C00A1E17C /* Sys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1382A649216E2A0900F35244 /* Sys.swift */; };
+		13E8B09C216F680E00A1E17C /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1382A64D216E2AF600F35244 /* Main.swift */; };
+		13E8B09D216F681100A1E17C /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1382A64F216E2D5200F35244 /* City.swift */; };
+		13E8B09E216F681400A1E17C /* Coord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1382A651216E2D8100F35244 /* Coord.swift */; };
+		13E8B0A1216F85D900A1E17C /* MockWeatherdataApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139CCD77216F4DE8009AA232 /* MockWeatherdataApiService.swift */; };
+		13E8B0A9216FA24A00A1E17C /* WeathersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1382A63C216E282700F35244 /* WeathersViewModel.swift */; };
+		13E8B0AA216FA24C00A1E17C /* WeatherCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1382A65E216E424A00F35244 /* WeatherCellViewModel.swift */; };
+		13E8B0AB216FA27500A1E17C /* WeatherDataApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1382A65A216E3A1900F35244 /* WeatherDataApiService.swift */; };
+		13E8B0AC216FA27700A1E17C /* APIServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1382A65C216E3E6E00F35244 /* APIServiceProtocol.swift */; };
+		13E8B0B9216FD39200A1E17C /* StubWeathers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E8B0B8216FD39200A1E17C /* StubWeathers.swift */; };
 		261E4F7CEED75530A0B08C63 /* Pods_WiproDemoApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD476A55BE88A5AB9F225FDB /* Pods_WiproDemoApp.framework */; };
-		DF0C871840C72946CDB9B147 /* Pods_WiproDemoAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 835A3035ED44FE320A180504 /* Pods_WiproDemoAppTests.framework */; };
-		F4685ADA59749D20C98E3FAB /* Pods_WiproDemoAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 191AF6E6C4A0243887BDFB1F /* Pods_WiproDemoAppUITests.framework */; };
+		BC96387E7ECBC49DEF052ABE /* Pods_WiproDemoAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 112A236407425BDA3CB3B0C5 /* Pods_WiproDemoAppUITests.framework */; };
+		E9EBC25EF4F40FC71E9202ED /* Pods_WiproDemoAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68AD7894F676B67473289131 /* Pods_WiproDemoAppTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +54,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		112A236407425BDA3CB3B0C5 /* Pods_WiproDemoAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WiproDemoAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1382A608216E03F000F35244 /* WiproDemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WiproDemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1382A60B216E03F000F35244 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1382A60D216E03F000F35244 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -80,13 +83,14 @@
 		1382A65E216E424A00F35244 /* WeatherCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherCellViewModel.swift; sourceTree = "<group>"; };
 		1382A660216E45BC00F35244 /* WeatherTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherTableViewCell.swift; sourceTree = "<group>"; };
 		1382A663216E522400F35244 /* String+humanReadableDateString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+humanReadableDateString.swift"; sourceTree = "<group>"; };
-		191AF6E6C4A0243887BDFB1F /* Pods_WiproDemoAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WiproDemoAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		139CCD77216F4DE8009AA232 /* MockWeatherdataApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockWeatherdataApiService.swift; sourceTree = "<group>"; };
+		13E8B0B8216FD39200A1E17C /* StubWeathers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StubWeathers.swift; sourceTree = "<group>"; };
 		327FBDC9B3CB739EFB56F9FB /* Pods-WiproDemoAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WiproDemoAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WiproDemoAppTests/Pods-WiproDemoAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		5355FA438C5DF4806A891823 /* Pods-WiproDemoAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WiproDemoAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WiproDemoAppUITests/Pods-WiproDemoAppUITests.release.xcconfig"; sourceTree = "<group>"; };
 		6478ABCC7030A225755EBD61 /* Pods-WiproDemoAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WiproDemoAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WiproDemoAppUITests/Pods-WiproDemoAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		68AD7894F676B67473289131 /* Pods_WiproDemoAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WiproDemoAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B8B89C0F0AF060DFF8F50B9 /* Pods-WiproDemoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WiproDemoApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-WiproDemoApp/Pods-WiproDemoApp.release.xcconfig"; sourceTree = "<group>"; };
 		77C975EEEB87688BD11A4DAC /* Pods-WiproDemoAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WiproDemoAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WiproDemoAppTests/Pods-WiproDemoAppTests.debug.xcconfig"; sourceTree = "<group>"; };
-		835A3035ED44FE320A180504 /* Pods_WiproDemoAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WiproDemoAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD476A55BE88A5AB9F225FDB /* Pods_WiproDemoApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WiproDemoApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBF672B208C30EE010674ED0 /* Pods-WiproDemoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WiproDemoApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WiproDemoApp/Pods-WiproDemoApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -104,7 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF0C871840C72946CDB9B147 /* Pods_WiproDemoAppTests.framework in Frameworks */,
+				E9EBC25EF4F40FC71E9202ED /* Pods_WiproDemoAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,7 +116,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4685ADA59749D20C98E3FAB /* Pods_WiproDemoAppUITests.framework in Frameworks */,
+				BC96387E7ECBC49DEF052ABE /* Pods_WiproDemoAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -160,6 +164,8 @@
 		1382A61F216E03F300F35244 /* WiproDemoAppTests */ = {
 			isa = PBXGroup;
 			children = (
+				139CCD77216F4DE8009AA232 /* MockWeatherdataApiService.swift */,
+				13E8B0B8216FD39200A1E17C /* StubWeathers.swift */,
 				1382A620216E03F300F35244 /* WiproDemoAppTests.swift */,
 				1382A622216E03F300F35244 /* Info.plist */,
 			);
@@ -252,8 +258,8 @@
 			isa = PBXGroup;
 			children = (
 				CD476A55BE88A5AB9F225FDB /* Pods_WiproDemoApp.framework */,
-				835A3035ED44FE320A180504 /* Pods_WiproDemoAppTests.framework */,
-				191AF6E6C4A0243887BDFB1F /* Pods_WiproDemoAppUITests.framework */,
+				68AD7894F676B67473289131 /* Pods_WiproDemoAppTests.framework */,
+				112A236407425BDA3CB3B0C5 /* Pods_WiproDemoAppUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -288,6 +294,7 @@
 				1382A618216E03F300F35244 /* Sources */,
 				1382A619216E03F300F35244 /* Frameworks */,
 				1382A61A216E03F300F35244 /* Resources */,
+				1FC1CA85DAFEF7CB2DE5892D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -389,6 +396,30 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		1FC1CA85DAFEF7CB2DE5892D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-WiproDemoAppTests/Pods-WiproDemoAppTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WiproDemoAppTests/Pods-WiproDemoAppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		52AA00CA01EF7CB5359D85C4 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -496,23 +527,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1382A65D216E3E6E00F35244 /* APIServiceProtocol.swift in Sources */,
-				1382A65F216E424A00F35244 /* WeatherCellViewModel.swift in Sources */,
-				1382A64E216E2AF600F35244 /* Main.swift in Sources */,
-				1382A641216E285F00F35244 /* Weathers.swift in Sources */,
+				13E8B09C216F680E00A1E17C /* Main.swift in Sources */,
+				13E8B09B216F680C00A1E17C /* Sys.swift in Sources */,
+				13E8B096216F680300A1E17C /* Weathers.swift in Sources */,
+				13E8B0AA216FA24C00A1E17C /* WeatherCellViewModel.swift in Sources */,
+				13E8B09A216F680A00A1E17C /* Clouds.swift in Sources */,
 				1382A60E216E03F000F35244 /* ViewController.swift in Sources */,
-				1382A63D216E282700F35244 /* WeathersViewModel.swift in Sources */,
-				1382A64A216E2A0900F35244 /* Sys.swift in Sources */,
+				13E8B0A9216FA24A00A1E17C /* WeathersViewModel.swift in Sources */,
+				13E8B097216F680500A1E17C /* Weather.swift in Sources */,
+				13E8B0AC216FA27700A1E17C /* APIServiceProtocol.swift in Sources */,
+				13E8B098216F680700A1E17C /* WeatherData.swift in Sources */,
 				1382A60C216E03F000F35244 /* AppDelegate.swift in Sources */,
 				1382A661216E45BC00F35244 /* WeatherTableViewCell.swift in Sources */,
+				13E8B0AB216FA27500A1E17C /* WeatherDataApiService.swift in Sources */,
 				1382A664216E522400F35244 /* String+humanReadableDateString.swift in Sources */,
-				1382A648216E29F100F35244 /* Clouds.swift in Sources */,
-				1382A650216E2D5200F35244 /* City.swift in Sources */,
-				1382A644216E296200F35244 /* Weather.swift in Sources */,
-				1382A65B216E3A1900F35244 /* WeatherDataApiService.swift in Sources */,
-				1382A652216E2D8100F35244 /* Coord.swift in Sources */,
-				1382A64C216E2ADC00F35244 /* WeatherData.swift in Sources */,
-				1382A646216E29C700F35244 /* Wind.swift in Sources */,
+				13E8B09D216F681100A1E17C /* City.swift in Sources */,
+				13E8B09E216F681400A1E17C /* Coord.swift in Sources */,
+				13E8B099216F680900A1E17C /* Wind.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -520,6 +551,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13E8B0A1216F85D900A1E17C /* MockWeatherdataApiService.swift in Sources */,
+				13E8B0B9216FD39200A1E17C /* StubWeathers.swift in Sources */,
 				1382A621216E03F300F35244 /* WiproDemoAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

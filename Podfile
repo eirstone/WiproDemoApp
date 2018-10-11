@@ -17,6 +17,9 @@ target 'WiproDemoApp' do
   target 'WiproDemoAppTests' do
     inherit! :search_paths
     # Pods for testing
+ 
+    pod 'RealmSwift'
+
   end
 
   target 'WiproDemoAppUITests' do
